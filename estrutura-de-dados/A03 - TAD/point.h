@@ -23,7 +23,7 @@ void point_free(Point * p);
 
 void point_print(Point * p);
 
-float point_distance(Point * a, Point *b);
+void point_distance(Point * a, Point *b);
 
 /**
   * Implementação
@@ -49,7 +49,7 @@ void point_print(Point * p){
     printf("X: %f, Y: %f\n", p->x, p->y);
 }
 
-float point_distance(Point * a, Point *b){
+void point_distance(Point * a, Point *b){
     // implements here
     printf("A distância entre os pontos é: %f\n", 0.0);
 }
